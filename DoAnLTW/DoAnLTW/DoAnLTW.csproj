@@ -121,8 +121,11 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\FantasticBeastsController.cs" />
+    <Compile Include="Controllers\HarryPotterVaChiecCocLuaController.cs" />
+    <Compile Include="Controllers\HarryPotterVaHonDaPhuThuyController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ReadController.cs" />
+    <Compile Include="Controllers\HarryPotterVaCanPhongChuaBiMatController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -221,8 +224,15 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Read\Chuong1.cshtml" />
-    <Content Include="Views\Read\Chuong2.cshtml" />
+    <Content Include="Views\HarryPotterVaCanPhongChuaBiMat\Chuong1.cshtml" />
+    <Content Include="Views\HarryPotterVaCanPhongChuaBiMat\Chuong2.cshtml" />
+    <Content Include="Views\HarryPotterVaHonDaPhuThuy\Chuong1.cshtml" />
+    <Content Include="Views\HarryPotterVaHonDaPhuThuy\Chuong2.cshtml" />
+    <Content Include="Views\HarryPotterVaHonDaPhuThuy\Chuong3.cshtml" />
+    <Content Include="Views\HarryPotterVaChiecCocLua\Chuong1.cshtml" />
+    <Content Include="Views\HarryPotterVaChiecCocLua\Chuong2.cshtml" />
+    <Content Include="Views\HarryPotterVaChiecCocLua\Chuong3.cshtml" />
+    <Content Include="Views\FantasticBeasts\Chuong1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

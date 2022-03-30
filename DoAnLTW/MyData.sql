@@ -1,4 +1,4 @@
-﻿create database NhaSach
+﻿create database WebSach
 go
 use WebSach
 go

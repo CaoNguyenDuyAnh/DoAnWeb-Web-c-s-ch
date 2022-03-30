@@ -7,19 +7,19 @@ using System.Web.Mvc;
 
 namespace DoAnLTW.Controllers
 {
-    public class ReadController : Controller
+    public class HarryPotterVaCanPhongChuaBiMatController : Controller
     {
         MyDataDataContext data = new MyDataDataContext();
         // GET: Read
         public ActionResult Chuong1()
         {
-            var chuong1 = from ss in data.Saches where ss.chuong == 1 select ss;
+            var chuong1 = from ss in data.chuongs where (ss.ten_chuong == "Chương 1") where (ss.id_sach == "067843235")  select ss;
             return View(chuong1);
         }
 
         public ActionResult Chuong2()
         {
-            var chuong2 = from ss in data.Saches where ss.chuong == 2 select ss;
+            var chuong2 = from ss in data.chuongs where (ss.ten_chuong == "Chương 2") where (ss.id_sach == "067843235") select ss;
             return View(chuong2);
         }
     }
