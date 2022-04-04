@@ -132,6 +132,8 @@ namespace DoAnLTW.Models
 		
 		private string _noi_dung;
 		
+		private System.Nullable<int> _so_view;
+		
 		private string _id_sach;
 		
 		private System.Nullable<System.DateTime> _created_at;
@@ -152,6 +154,8 @@ namespace DoAnLTW.Models
     partial void Onbi_danhChanged();
     partial void Onnoi_dungChanging(string value);
     partial void Onnoi_dungChanged();
+    partial void Onso_viewChanging(System.Nullable<int> value);
+    partial void Onso_viewChanged();
     partial void Onid_sachChanging(string value);
     partial void Onid_sachChanged();
     partial void Oncreated_atChanging(System.Nullable<System.DateTime> value);
@@ -242,6 +246,26 @@ namespace DoAnLTW.Models
 					this._noi_dung = value;
 					this.SendPropertyChanged("noi_dung");
 					this.Onnoi_dungChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_so_view", DbType="Int")]
+		public System.Nullable<int> so_view
+		{
+			get
+			{
+				return this._so_view;
+			}
+			set
+			{
+				if ((this._so_view != value))
+				{
+					this.Onso_viewChanging(value);
+					this.SendPropertyChanging();
+					this._so_view = value;
+					this.SendPropertyChanged("so_view");
+					this.Onso_viewChanged();
 				}
 			}
 		}
@@ -475,7 +499,7 @@ namespace DoAnLTW.Models
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_bi_danh", DbType="NVarChar(100)")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_bi_danh", DbType="NVarChar(200)")]
 		public string bi_danh
 		{
 			get
@@ -495,7 +519,7 @@ namespace DoAnLTW.Models
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_mo_ta", DbType="NText", UpdateCheck=UpdateCheck.Never)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_mo_ta", DbType="NVarChar(MAX)")]
 		public string mo_ta
 		{
 			get

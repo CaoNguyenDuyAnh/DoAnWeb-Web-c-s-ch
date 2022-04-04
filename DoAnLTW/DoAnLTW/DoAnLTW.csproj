@@ -121,11 +121,19 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\AnMaSuVoDichController.cs" />
+    <Compile Include="Controllers\CuocDoiNhamNhiController.cs" />
     <Compile Include="Controllers\FantasticBeastsController.cs" />
+    <Compile Include="Controllers\HacHoaXinCanThanController.cs" />
     <Compile Include="Controllers\HarryPotterVaChiecCocLuaController.cs" />
     <Compile Include="Controllers\HarryPotterVaHonDaPhuThuyController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HarryPotterVaCanPhongChuaBiMatController.cs" />
+    <Compile Include="Controllers\KhoaiXuyenHeThongPhanPhaiBossLaiTapController.cs" />
+    <Compile Include="Controllers\OnePunchManController.cs" />
+    <Compile Include="Controllers\PhuNuNgotNgaoNhuMatController.cs" />
+    <Compile Include="Controllers\SongHuyenController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -233,6 +241,37 @@
     <Content Include="Views\HarryPotterVaChiecCocLua\Chuong2.cshtml" />
     <Content Include="Views\HarryPotterVaChiecCocLua\Chuong3.cshtml" />
     <Content Include="Views\FantasticBeasts\Chuong1.cshtml" />
+    <Content Include="Views\OnePunchMan\Chuong1.cshtml" />
+    <Content Include="Views\OnePunchMan\Chuong2.cshtml" />
+    <Content Include="Views\OnePunchMan\Chuong3.cshtml" />
+    <Content Include="Views\OnePunchMan\Chuong4.cshtml" />
+    <Content Include="Views\CuocDoiNhamNhi\Chuong1.cshtml" />
+    <Content Include="Views\CuocDoiNhamNhi\Chuong2.cshtml" />
+    <Content Include="Views\CuocDoiNhamNhi\Chuong3.cshtml" />
+    <Content Include="Views\CuocDoiNhamNhi\Chuong4.cshtml" />
+    <Content Include="Views\HacHoaXinCanThan\Chuong1.cshtml" />
+    <Content Include="Views\HacHoaXinCanThan\Chuong2.cshtml" />
+    <Content Include="Views\HacHoaXinCanThan\Chuong3.cshtml" />
+    <Content Include="Views\HacHoaXinCanThan\Chuong4.cshtml" />
+    <Content Include="Views\KhoaiXuyenHeThongPhanPhaiBossLaiTap\Chuong1.cshtml" />
+    <Content Include="Views\KhoaiXuyenHeThongPhanPhaiBossLaiTap\Chuong2.cshtml" />
+    <Content Include="Views\KhoaiXuyenHeThongPhanPhaiBossLaiTap\Chuong3.cshtml" />
+    <Content Include="Views\KhoaiXuyenHeThongPhanPhaiBossLaiTap\Chuong4.cshtml" />
+    <Content Include="Views\PhuNuNgotNgaoNhuMat\Chuong1.cshtml" />
+    <Content Include="Views\PhuNuNgotNgaoNhuMat\Chuong2.cshtml" />
+    <Content Include="Views\PhuNuNgotNgaoNhuMat\Chuong3.cshtml" />
+    <Content Include="Views\SongHuyen\Chuong1.cshtml" />
+    <Content Include="Views\SongHuyen\Chuong2.cshtml" />
+    <Content Include="Views\AnMaSuVoDich\Chuong1.cshtml" />
+    <Content Include="Views\AnMaSuVoDich\Chuong2.cshtml" />
+    <Content Include="Views\AnMaSuVoDich\Chuong3.cshtml" />
+    <Content Include="Views\AnMaSuVoDich\Chuong4.cshtml" />
+    <Content Include="Views\AnMaSuVoDich\Chuong5.cshtml" />
+    <Content Include="Views\AnMaSuVoDich\Chuong6.cshtml" />
+    <Content Include="Views\AnMaSuVoDich\Chuong7.cshtml" />
+    <Content Include="Views\AnMaSuVoDich\Chuong8.cshtml" />
+    <Content Include="Views\AnMaSuVoDich\Chuong.cshtml" />
+    <Content Include="Views\Admin\TacGia.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -13,7 +13,7 @@ namespace DoAnLTW.Controllers
         // GET: Read
         public ActionResult Chuong1()
         {
-            var chuong1 = from ss in data.chuongs where (ss.ten_chuong == "Chương 1") where (ss.id_sach == "0512487") select ss;
+            var chuong1 = from ss in data.chuongs where (ss.ten_chuong == "Chương_1") where (ss.id_sach == "066") select ss;
             return View(chuong1);
         }
     }
